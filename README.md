@@ -1,4 +1,4 @@
-<img width="2000" height="2000" alt="image" src="https://github.com/user-attachments/assets/9a5c4123-1fd6-4408-a4c7-3597c06ed31a" /># NumPy-Transformer-From-Scratch
+# NumPy-Transformer-From-Scratch
 
 * Pure NumPy: no torch, tensorflow, or autograd.
 * Backpropagation: manual implementation of the backward pass for all layers.
@@ -13,4 +13,4 @@
 * Harvard pyTorch implementation: [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
 * Widely usefull 3Blue1Brown explanation: [Neural networks](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=YNa-KtC6UHkWgOrZ)
 
-<img width="2000" height="2000" alt="image" src="https://github.com/user-attachments/assets/eded89e6-a065-4f27-9b8e-4c5653c53d45" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/eded89e6-a065-4f27-9b8e-4c5653c53d45" />
