@@ -493,9 +493,6 @@ vocab_size = len(chars)
 stoi = { ch:i for i,ch in enumerate(chars) }
 itos = { i:ch for i,ch in enumerate(chars) }
 
-print(f"Vocab size: {vocab_size}")
-print(f"Unique characters: {''.join(chars)}")
-
 data = np.array([stoi[c] for c in text], dtype=np.int32)
 
 def get_batch(data, batch_size, block_size):
@@ -518,9 +515,6 @@ H = 4
 STEPS = 2000    
 LR = 0.001
 
-print(f"Initializing Model (D_MODEL={D_MODEL}, LAYERS={N_LAYERS})...")
-
-# Initialize Model
 model = make_model(src_vocab=vocab_size, tgt_vocab=vocab_size, 
                    N=N_LAYERS, d_model=D_MODEL, h=H, dropout=0.1)
 
@@ -528,8 +522,6 @@ optimizer = Adam(model.parameters(), lr=LR)
 criterion = CrossEntropyLoss()
 
 loss_history = []
-
-print("Starting Training...")
 
 for step in range(STEPS):
     
